@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giselle Douzet Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="PortfolioWebsiteDouzet.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <h1 class="logo">Giselle Douzet, COGS 3 Project Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <header class="hero">
+    <h2>About the portfolio</h2>
+    <p>
+      This website showcases what I have learned so far in COGS 3. 
+      This includes my most up to date resume, my HTML skills, my CSS skills, my JavaScript skills, and the use of basic design principles.
+    </p>
+    <a href="#projects" class="button">View My Projects</a>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student at UC San Diego studying Business Economics. 
+      Thanks to this course, I have learned how to code web pages using HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search projects by name..."
+    >
+
+    <div id="projectList">
+      <!-- Projects inserted by JavaScript -->
+    </div>
+  </section>
+
+
+  <!-- RESUME -->
+<section id="resume">
+  <h2>Resume</h2>
+  <p>You can view my resume below.</p>
+
+  <!-- Button FIRST -->
+  <div class="resume-content"></div>
+  <a href="resume.pdf" target="_blank" class="button">Open Resume (PDF)</a>
+  </div>
+
+  <p></p>
+
+  <!-- Preview image SECOND -->
+  <div class="resume-content"></div>
+  <a><img src="images/resume preview.png" alt="Resume preview" class="resume-preview"></a>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>©<span id="year"></span> Giselle Douzet</p>
+  </footer>
+
+<script src="PortfolioWebsiteDouzet.js"></script>
+</body>
+</html>
